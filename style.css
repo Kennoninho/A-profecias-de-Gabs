@@ -1,0 +1,36 @@
+:root{
+    --cor-fundo: #01080e3d ;
+    --cor-principal: #050505ce ;
+    --cor-secundaria: #1828a4; 
+    --cor-destaque: #ff0000;
+    --cor-texto: #c00000;
+
+}
+
+body {
+    background-image: url(Sem\ Título-2.png);
+    background-color: var(--cor-fundo);
+    background-size: 1980px 1080px;
+    background-position: center;
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-image: url(images\ \(2\).jpeg);
+    background-size: 1850px 230px;
+    background-position: center;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+
